@@ -1,18 +1,34 @@
-## Getting Started
+## Sistema de Vendas Completo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Programa em Java para manter um cadastro de produtos e suas respectivas vendas. O aplicativo deve apresentar também alguns relatórios de controle para o usuário. 
 
-## Folder Structure
+Algumas regras sobre o software:
+- Um produto deve ter os seguintes atributos: código, nome, valor e quantidade em estoque.
+- Uma venda deve ter os seguintes atributos: data da venda, o produto vendido e a quantidade vendida.
+- As vendas são feitas sempre para um único produto.
+- Para realizar a venda, sempre verifique se o produto a ser vendido existe em estoque.
 
-The workspace contains two folders by default, where:
+A estrutura mínima de menus/funcionalidades que o aplicativo deve ter é a seguinte:
+- 1 Incluir produto
+- 2 Consultar produto
+- 3 Listagem de produtos
+- 4 Vendas por período – detalhado
+- 5 Realizar venda
+- 0 Sair
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Os dados constantes da listagem de produtos são:
+Cabeçalho:
+  - Título.
+Detalhe:
+  - Código do produto, nome do produto, valor unitário e quantidade em estoque.
+Rodapé:
+  - Valor médio, máximo e mínimo dos produtos.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Os dados constantes do relatório de vendas - detalhado são:
+Cabeçalho:
+  - Título.
+  - Período de emissão.
+Detalhe:
+  - Data da venda, nome do produto, quantidade, valor unitário e valor total.
+Rodapé:
+  - Valor médio das vendas para aquele período
