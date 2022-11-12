@@ -17,18 +17,27 @@ A estrutura mínima de menus/funcionalidades que o aplicativo deve ter é a segu
 - 0 Sair
 
 Os dados constantes da listagem de produtos são:
-Cabeçalho:
-  - Título.
-Detalhe:
-  - Código do produto, nome do produto, valor unitário e quantidade em estoque.
-Rodapé:
-  - Valor médio, máximo e mínimo dos produtos.
+- Cabeçalho:
+  - Título
+- Detalhe:
+  - Código do produto
+  - Nome do produto
+  - Valor unitário
+  - Quantidade em estoque
+- Rodapé:
+  - Valor médio dos produtos
+  - Valor máximo dos produtos
+  - Valor mínimo dos produtos
 
 Os dados constantes do relatório de vendas - detalhado são:
-Cabeçalho:
-  - Título.
-  - Período de emissão.
-Detalhe:
-  - Data da venda, nome do produto, quantidade, valor unitário e valor total.
-Rodapé:
+- Cabeçalho:
+  - Título
+  - Período de emissão
+- Detalhe:
+  - Data da venda
+  - Nome do produto
+  - Quantidade,
+  - Valor unitário
+  - Valor total
+- Rodapé:
   - Valor médio das vendas para aquele período
